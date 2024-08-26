@@ -5,10 +5,9 @@ import { TracingBeam } from "../components/ui/tracing-beam";
 
 export function PresidentAy() {
   return (
-    <TracingBeam className="px-6 ">
-      <div className="max-w-2xl mx-auto antialiased pt-4 relative">
+      <div className="max-w-2xl mx-auto antialiased pt-4 relative mt-14">
         {dummyContent.map((item, index) => (
-          <div key={`content-${index}`} className="mb-10">
+          <div key={`content-${index}`} className="mb-12">
             <p className="text-xl mb-4 text-white">
               {item.title}
             </p>
@@ -31,7 +30,6 @@ export function PresidentAy() {
           </div>
         ))}
       </div>
-    </TracingBeam>
   );
 }
 

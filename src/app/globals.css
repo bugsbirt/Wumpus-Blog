@@ -67,10 +67,22 @@
     @apply bg-background text-foreground;
   }
 }
-*, *::before, *::after {
-  box-sizing: border-box;
-}
+
 
 .president {
   overflow-y: hidden;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px; 
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
 }
