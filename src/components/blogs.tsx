@@ -10,7 +10,7 @@ export function BlogMenu() {
     return (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full max-w-6xl mx-auto p-4 bg-black">
             {blogContent.map((blog, index) => (
-                <div key={index} className="relative group flex flex-col bg-black hover:shadow-xl border border-zinc-950 rounded-2xl overflow-hidden top-16">
+                <div key={index} className="glassmorphism relative group flex flex-col bg-black hover:shadow-xl border border-zinc-950 rounded-2xl overflow-hidden top-16">
                     <FollowerPointerCard
                         title={<TitleComponent title={blog.author} avatar={blog.authorAvatar} />}
                     >

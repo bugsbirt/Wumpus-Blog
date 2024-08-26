@@ -86,3 +86,30 @@
     gap: 24px;
   }
 }
+.scrollable-section {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  background: #2e374300;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #263f6400;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+.glassmorphism {
+  background: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
