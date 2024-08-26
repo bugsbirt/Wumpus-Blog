@@ -78,7 +78,7 @@ const blogContent = [
       "Wumpus takes over Manhattan!",
     image: "https://utfs.io/f/f673f653-6129-48ae-b76d-7a6ffb6797b6-cuf44h.png",
     authorAvatar: "/wumpus.png",
-  }
+  },
   
 ];
 
