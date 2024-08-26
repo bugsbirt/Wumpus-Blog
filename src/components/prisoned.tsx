@@ -10,7 +10,7 @@ export function WumpisPrisoner() {
           <div key={`content-${index}`} className="mb-12">
             <p className="text-xl mb-4 text-white">
               {item.title}
-            </p>z
+            </p>
 
             <div className="text-sm prose prose-sm dark:prose-invert">
               {item?.image && (
