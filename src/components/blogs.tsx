@@ -1,3 +1,4 @@
+import { title } from "process";
 import { FollowerPointerCard } from "../components/ui/following-pointer";
 import { useRouter } from "next/navigation";
 
@@ -73,12 +74,22 @@ const blogContent = [
     ,
     author: "/wumpus-in-manhattan",
     date: "26th August, 2024",
+
     title: "Wumpus's In Manhattan",
     description:
       "Wumpus takes over Manhattan!",
     image: "https://utfs.io/f/f673f653-6129-48ae-b76d-7a6ffb6797b6-cuf44h.png",
     authorAvatar: "/wumpus.png",
   },
+  {
+    slug: '/wumpus-prison',
+    author: "/wumpus-prison",
+    date: "26th August, 2024",
+    title: "Wumpus Prisoned",
+    description: "Wumpus gets imprisoned for their crimes!",
+    image:"https://utfs.io/f/9ea9e231-38d3-40e2-a1b9-819c137b675a-88hipu.png", 
+    authorAvatar: "/wumpus.png",
+  }
   
 ];
 
