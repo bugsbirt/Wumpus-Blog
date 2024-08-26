@@ -73,7 +73,7 @@ const blogContent = [
     ,
     author: "/wumpus-in-manhattan",
     date: "26th August, 2024",
-    title: "Wumpus In Manhattan",
+    title: "Wumpus's In Manhattan",
     description:
       "Wumpus takes over Manhattan!",
     image: "https://utfs.io/f/f673f653-6129-48ae-b76d-7a6ffb6797b6-cuf44h.png",

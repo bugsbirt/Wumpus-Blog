@@ -44,7 +44,7 @@ const dummyContent = [
     title: "There they go!",
     image: "https://utfs.io/f/1f99241e-b045-4e20-b1e5-5e197deeaefa-kdw074.png",
     description: `
-      <p>Wumpus has ascended into the sky and begun a journey through outer space to Earth's atmosphere. After approximately 20 minutes of flight, he descends through Earth's atmosphere and falls rapidly to the ground.</p>
+      <p>Wumpus has ascended into the sky and begun a journey through outer space to Earth's atmosphere. After approximately 20 minutes of flight, wumpus descends through Earth's atmosphere and falls rapidly to the ground.</p>
     `,
   }
 ];
