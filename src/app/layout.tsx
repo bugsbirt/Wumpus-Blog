@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Wumpus Blog ",
-  description: "A blog all about Wumpus & their adventures!",
+  description: "A unofficial blog all about Wumpus & their adventures!",
 };
 
 export default function RootLayout({
@@ -20,7 +20,7 @@ export default function RootLayout({
       <head>
       <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
         <meta property="og:title" content="Wumpus Blog" />
-        <meta property="og:description" content="A **unofficial** blog all about Wumpus & their adventures!" />
+        <meta property="og:description" content="A unofficial blog all about Wumpus & their adventures!" />
         <meta property="og:image" content="/favicon.ico" />
         <meta property="og:url" content="https://wumpus.blog" />
         <meta name="theme-color" content="#5b65e8" />
