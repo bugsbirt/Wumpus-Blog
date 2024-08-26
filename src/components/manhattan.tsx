@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { TracingBeam } from "../components/ui/tracing-beam";
 
 export function Manhattan() {
   return (
