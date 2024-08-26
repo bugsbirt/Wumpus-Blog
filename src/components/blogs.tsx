@@ -55,7 +55,7 @@ const blogContent = [
     title: "Wumpus For President",
     description:
       "Wumpus has the potential to be an excellent president. They have traveled to space and to various locations worldwide, possessing all the necessary qualities a President should have.",
-    image: "https://utfs.io/f/f1815064-0a78-4382-9146-3468afc9cbde-kbnky9.png",
+    image: "https://utfs.io/f/ed483e7d-8f22-404a-b55d-284493bfcc8a-6nyvu4.png",
     authorAvatar: "/wumpus.png",
   },
   {
@@ -68,6 +68,17 @@ const blogContent = [
     image: "https://utfs.io/f/3b661b5d-be19-43a7-9717-a54cff6fadc6-75v02n.png",
     authorAvatar: "/wumpus.png",
   },
+  {
+    slug: "/wumpus-in-manhattan"
+    ,
+    author: "/wumpus-in-manhattan",
+    date: "26th August, 2024",
+    title: "Wumpus In Manhattan",
+    description:
+      "Wumpus takes over Manhattan!",
+    image: "https://utfs.io/f/f673f653-6129-48ae-b76d-7a6ffb6797b6-cuf44h.png",
+    authorAvatar: "/wumpus.png",
+  }
   
 ];
 
