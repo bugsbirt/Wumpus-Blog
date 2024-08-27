@@ -20,20 +20,20 @@ export function BlogMenu() {
                                 <img
                                     src={blog.image}
                                     alt="thumbnail"
-                                    className="object-cover w-full h-full"
+                                    className="object-cover w-full h-full nograb no-select"
                                 />
                             </div>
                             <div className="flex flex-col p-4 flex-grow">
-                                <h2 className="font-bold text-lg text-zinc-400 mb-2 truncate">
+                                <h2 className="font-bold text-lg text-zinc-400 mb-2 truncate no-select">
                                     {blog.title}
                                 </h2>
-                                <h2 className="font-normal text-sm text-zinc-500 mb-4 truncate">
+                                <h2 className="font-normal text-sm text-zinc-500 mb-4 truncate no-select">
                                     {blog.description}
                                 </h2>
                                 <div className="flex flex-col sm:flex-row justify-between items-center mt-auto">
-                                    <span className="text-xs sm:text-sm text-gray-500">{blog.date}</span>
+                                    <span className="text-xs sm:text-sm text-gray-500 no-select">{blog.date}</span>
                                     <a
-                                        className="mt-2 sm:mt-0 px-6 py-2 bg-white text-black font-bold rounded-xl block text-xs sm:text-sm"
+                                        className="mt-2 sm:mt-0 px-6 py-2 bg-white text-black font-bold rounded-xl block text-xs sm:text-sm no-select"
                                         onClick={() => push(blog.slug)}
                                     >
                                         Read More
@@ -49,6 +49,39 @@ export function BlogMenu() {
 }
 
 const blogContent = [
+  {
+    slug: 'wumpus-on-the-loose',
+    author: "/wumpus-on-the-loose",
+    date: '27th August, 2024',
+    title: 'Wumpus On The Loose',
+    description: 'Wumpus is on the loose!',
+    image: "https://utfs.io/f/236d3908-9351-4b0c-8b0c-5583057ae9a0-830ph3.png",
+    authorAvatar: '/wumpus.png'
+  },
+
+  {
+    slug: '/wumpus-prison',
+    author: "/wumpus-prison",
+    date: "26th August, 2024",
+    title: "Wumpus Prisoned",
+    description: "Wumpus gets imprisoned for their crimes!",
+    image:"https://utfs.io/f/9ea9e231-38d3-40e2-a1b9-819c137b675a-88hipu.png", 
+    authorAvatar: "/wumpus.png",
+  },  
+  {
+    slug: "/wumpus-in-manhattan"
+    ,
+    author: "/wumpus-in-manhattan",
+    date: "26th August, 2024",
+
+    title: "Wumpus's In Manhattan",
+    description:
+      "Wumpus takes over Manhattan!",
+    image: "https://utfs.io/f/f673f653-6129-48ae-b76d-7a6ffb6797b6-cuf44h.png",
+    authorAvatar: "/wumpus.png",
+  },  
+
+
   {
     slug: "/wumpus-president",
     author: "/wumpus-president",
@@ -68,28 +101,9 @@ const blogContent = [
       "Wumpus's journey to space!",
     image: "https://utfs.io/f/3b661b5d-be19-43a7-9717-a54cff6fadc6-75v02n.png",
     authorAvatar: "/wumpus.png",
-  },
-  {
-    slug: "/wumpus-in-manhattan"
-    ,
-    author: "/wumpus-in-manhattan",
-    date: "26th August, 2024",
+  },  
 
-    title: "Wumpus's In Manhattan",
-    description:
-      "Wumpus takes over Manhattan!",
-    image: "https://utfs.io/f/f673f653-6129-48ae-b76d-7a6ffb6797b6-cuf44h.png",
-    authorAvatar: "/wumpus.png",
-  },
-  {
-    slug: '/wumpus-prison',
-    author: "/wumpus-prison",
-    date: "26th August, 2024",
-    title: "Wumpus Prisoned",
-    description: "Wumpus gets imprisoned for their crimes!",
-    image:"https://utfs.io/f/9ea9e231-38d3-40e2-a1b9-819c137b675a-88hipu.png", 
-    authorAvatar: "/wumpus.png",
-  }
+
   
 ];
 
@@ -106,7 +120,7 @@ const TitleComponent = ({
       height="20"
       width="20"
       alt="thumbnail"
-      className="rounded-full border-2 border-white"
+      className="rounded-full border-2 border-white nograb"
     />
     <p>{title}</p>
   </div>

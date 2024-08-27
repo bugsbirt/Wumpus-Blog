@@ -117,3 +117,14 @@
 
 
 
+.clickable {
+  cursor: pointer;
+}
+.nograb {
+  -webkit-user-drag: none;
+
+}
+.no-select {
+  -webkit-user-select: none;
+ 
+}

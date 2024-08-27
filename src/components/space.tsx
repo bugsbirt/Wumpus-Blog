@@ -7,7 +7,7 @@ export function SpaceArticle() {
     <div className="max-w-2xl mx-auto antialiased pt-4 relative mt-16">
       {dummyContent.map((item, index) => (
         <div key={`content-${index}`} className="mb-20">
-              <p className="text-xl mb-4 text-white" style={{ fontSize: "28px" }}>
+              <p className="text-xl mb-4 text-white no-select" style={{ fontSize: "28px" }}>
                 {item.title}
               </p>
 
@@ -18,11 +18,11 @@ export function SpaceArticle() {
                 alt="blog thumbnail"
                 height={1000}
                 width={1000}
-                className="rounded-lg mb-10 object-cover"
+                className="rounded-lg mb-10 object-cover nograb"
               />
             )}
             <div
-              className="text-zinc-400"
+              className="text-zinc-400 "
               dangerouslySetInnerHTML={{ __html: item.description }}
             />
           </div>
